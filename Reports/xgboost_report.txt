@@ -1,0 +1,32 @@
+
+    XGBoost Final Model Report
+    ==========================
+    Optimal Threshold: 0.7917
+    
+    KEY PERFORMANCE METRICS
+    -----------------------
+    Accuracy:      0.9632  (Overall Correctness)
+    ROC-AUC:       0.9793  (Ability to rank buyers vs non-buyers)
+    PR-AUC:        0.6738   (Precision-Recall Area - Critical for Imbalanced Data)
+    
+    Classification Report:
+                  precision    recall  f1-score   support
+
+           0       0.99      0.97      0.98    847131
+           1       0.54      0.81      0.65     37343
+
+    accuracy                           0.96    884474
+   macro avg       0.77      0.89      0.82    884474
+weighted avg       0.97      0.96      0.97    884474
+
+    
+    Confusion Matrix:
+    [[821700  25431]
+ [  7128  30215]]
+    
+    Variable Definitions:
+    ---------------------
+    1. Recency: Days since previous purchase (Calculated dynamically).
+    2. CLV Formula: AOV * Monthly Frequency * 12 Months.
+    3. Cart Abandonment: 1 - (Purchases from Cart / Total Carts).
+    

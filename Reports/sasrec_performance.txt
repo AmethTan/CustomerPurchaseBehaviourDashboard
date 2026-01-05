@@ -1,0 +1,2 @@
+SASRec Hit Rate @ 10: 89.60%
+Evaluated on 500 users.
