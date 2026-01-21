@@ -122,7 +122,7 @@ To run this dashboard locally on your machine:
 ## 📜 License
 
 This project is for educational and academic purposes.
-[MIT License](LICENSE)
+
 
 ***
 *Developed with ❤️ using [Streamlit](https://streamlit.io)*
