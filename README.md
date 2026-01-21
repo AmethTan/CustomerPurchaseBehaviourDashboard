@@ -71,7 +71,7 @@ Using SASRec, the dashboard simulates potential future browsing paths based on t
 
 ## 📂 Dataset Details
 
-The models were trained on the **"eCommerce events history in electronics store"** dataset (Oct 2019 – Feb 2020), sourced from [Rees46 Marketing Platform](https://rees46.com/) via Kaggle.
+The models were trained on the **"eCommerce events history in electronics store"** dataset (Oct 2019 – Feb 2020), sourced via Kaggle from [Rees46 Marketing Platform](https://rees46.com/) by Michael Kechinov.
 
 * **Source:** [Kaggle Dataset Link](https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-electronics-store)
 * **Size:** Large-scale transaction logs from a multi-category store.
@@ -90,8 +90,8 @@ To run this dashboard locally on your machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-    cd YOUR_REPO_NAME
+    git clone [https://github.com/AmethTan/CustomerPurchaseBehaviourDashboard.git](https://github.com/AmethTan/CustomerPurchaseBehaviourDashboard.git)
+    cd CustomerPurchaseBehaviourDashboard
     ```
 
 2.  **Install dependencies:**
