@@ -93,9 +93,10 @@ def load_resources():
     # A. Load Data from GitHub (for deployment compatibility)
     try:
         # Download from raw GitHub content URL
-        data_url = "https://raw.githubusercontent.com/AmethTan/CustomerPurchaseBehaviourDashboard/master/Data/data.csv"
+        data_url = "https://media.githubusercontent.com/media/AmethTan/CustomerPurchaseBehaviourDashboard/master/Data/data.csv"
         df = pd.read_csv(data_url)
         st.success("✅ Data loaded from GitHub")
+        
     except Exception as e:
         # Fallback: try loading locally if available (for local development)
         if os.path.exists(DATA_PATH):
